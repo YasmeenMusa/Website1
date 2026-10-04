@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.4) 50%),
+    url(background_img.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.navbar {
+  height: 70px;
+  width: 1200px;
+}
+
+.icon {
+  height: 70px;
+  width: 300px;
+  float: left;
+}
+
+.logo {
+  float: left;
+  color: orangered;
+  font-size: 4  0px;
+  font-family: Arial;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.menu {
+  height: 70px;
+  width: 400px;
+  float: left;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  float: left;
+}
+
+ul li {
+  margin-top: 30px;
+  margin-left: 10px;          /**I did 40 px to 20px**/
+  list-style: none;
+}
+
+ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: rgb(225, 105, 13);
+}
+
+.search_bar {
+  height: 70px;
+  width: 300px;
+  float: left;
+  margin-top: 25px;
+}
+
+.search {
+  font-family: "Times New Roman";
+  padding-left: 5px;
+  float: left;
+  color: white;
+  height: 25px;
+  width: 200px;
+  border: 2px solid orangered;
+  background: transparent; /**Click krny par border ka color white and black whyyy**/
+  border-radius: 10px;
+}
+
+.btn {
+  height: 27px;
+  width: 80px;
+  border: none;
+  background: linear-gradient(to top, orangered,rgb(251, 103, 49)) ;
+  border: 1ps solid orangered;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.btn a{
+  color: black;
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.search:focus {      /**The :focus outline none is the solution for the given problem...**/
+  outline: none;
+}
+
+.content {
+  height: auto;
+  width: 1200;
+  margin: auto;
+}
+
+h1 {
+  display: inline-block;
+  color: white;
+  font-family: "Times New Roman";
+  padding: 30px 0px 20px 40px;
+  font-size: 50px;
+}
+
+span {
+  color: orangered;
+}
+
+.para1 {
+  color: white;
+  padding: 40px 0px 10px 40px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.click {
+  margin: 40px 0px 20px 40px;
+  height: 27px;
+  width: 80px;
+  border: none;
+  background: linear-gradient(to top, orangered,rgb(251, 103, 49)) ;
+  border: 1ps solid orangered;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 2s ease;
+}
+
+.click:hover {
+  background: linear-gradient(to top, rgb(251, 86, 26),rgb(251, 103, 49)) ;
+}
+
+.click a {
+  color: black;
+  text-decoration: none;
+}
+
+.form {
+  height: 380px;
+  width: 250px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.5) 50%
+  );
+  position: absolute;
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  margin-top: 140px;
+}
+
+.form h2 {
+ background: linear-gradient(to top, orangered,rgb(251, 103, 49)) ;
+  height: 25px;
+  width: 240px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 5px 0px 5px 10px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.input_email {
+  height: 25px;
+  width: 240px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid orangered;
+  padding: 5px 0px 5px 0px;
+  margin: 20px 0px 20px 0px;
+  color: white;
+}
+
+.input_email:focus{
+  outline: none;
+}
+
+.input_password {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid orangered;
+  margin: 20px 0px 20px 0px;
+  height: 25px;
+  width: 240px;
+  color: white;
+}
+
+.input_password:focus{
+  outline: none;
+}
+
+.click2 {
+  background: linear-gradient(to top, orangered,rgb(251, 103, 49)) ;
+  height: 35px;
+  width: 240px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 0px 5px 10px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  transition: 2s ease;
+  margin-bottom: 3px;
+}
+
+.click2:hover{
+  background: linear-gradient(to top, rgb(251, 86, 26),rgb(232, 124, 84)) ;
+}
+
+
+::placeholder{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.click2 a {
+  color: black;
+  text-decoration: none;
+}
+
+.form_para {
+ font-family: Arial, Helvetica, sans-serif; 
+ font-size: 15px;
+ padding: 50px 0px 0px 40px;
+ line-height: 0px
+}
+
+.sih1{
+  font-family: Arial, Helvetica, sans-serif; 
+ font-size: 15px; 
+ padding-left: 70px;
+ color: orangered;
+ text-decoration: none;
+  
+}
+
+.sih a{
+   color: orangered;
+}
+
+p{
+ color: white;
+ text-decoration: none;
+  padding-left:  75px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  font-size: 15px;
+
+}
+
+p a{
+  color: white;
+  text-decoration: none;
+}
